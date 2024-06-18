@@ -44,9 +44,9 @@ namespace _18_06
             Console.WriteLine("eta " + eta + " anni");
         }
 
-        public void NomeCompleted(string cognome, byte eta, string nome)
+        public void NomeCompleted(string nome,string cognome, byte eta)
         {
-            Console.WriteLine(" Descrizione"+ nome + " " cognome + " " + eta);
+            Console.WriteLine("Descrizione "+ nome + " " + cognome + " " + eta);
         }
     }
 }

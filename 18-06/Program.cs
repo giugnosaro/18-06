@@ -13,7 +13,7 @@ namespace _18_06
             persona.NomeCompleted();
             persona.NomeCompleted(persona.Cognome);
             persona.NomeCompleted(persona.Eta);
-            persona.NomeCompleted(persona.Nome , persona.Cognome, persona.Eta);
+            persona.NomeCompleted(persona.Nome , persona.Cognome , persona.Eta);
         }
     }
 }
